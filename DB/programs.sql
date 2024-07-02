@@ -1,0 +1,1 @@
+CREATE TABLE `programs` ( `id` int NOT NULL, `name` varchar(256) NOT NULL, `description` varchar(1024) NOT NULL, `created` datetime DEFAULT NULL, `modified` datetime DEFAULT NULL, `stat` varchar(50) DEFAULT NULL, `processed` varchar(50) DEFAULT NULL, `notes` varchar(255) DEFAULT NULL, UNIQUE KEY `id` (`id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
